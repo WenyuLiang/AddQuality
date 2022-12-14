@@ -1,5 +1,5 @@
 # AddQuality
-Add Missing Quality Score to Bam FIle. Some mapper, e.g. LRA will generated bam file with some alignments's quality scores missed. Here I wrote a python scipt to restore those quality scores from the original fastq file. The quality scores are important information for SNPs and SV calling.
+Add Missing Quality Score to Bam FIle. Some mappers, e.g. LRA will generate bam file with some alignments's quality scores missed. Here I wrote a python scipt to restore those quality scores from the original fastq file. The quality scores are important information for SNPs and SV calling.
 
 usage: addQuality.py [-h] [-i IN_BAM] [-o OUT_SAM] [-f FASTQ]
 
