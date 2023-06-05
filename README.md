@@ -13,3 +13,5 @@ optional arguments:
                         output sam file
   -f FASTQ, --fastq FASTQ
                         fastq file used for mapping
+
+Not recommended for large fastq files
